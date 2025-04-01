@@ -1,4 +1,6 @@
-#include "algorithm.h"
+#include "vector.h"
+
+#include <stdlib.h>
 
 huffman_vector_t* huffman_vector_new(size_t capacity)
 {

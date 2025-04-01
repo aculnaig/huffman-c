@@ -1,9 +1,8 @@
-#ifndef HUFFMAN_ALGORITHM
-#define HUFFMAN_ALGORITHM
+#ifndef HUFFMAN_VECTOR
+#define HUFFMAN_VECTOR
 
 #include <stddef.h>
 #include <stdint.h>
-#include <stdlib.h>
 
 typedef struct huffman_vector_t {
 
@@ -21,4 +20,4 @@ void huffman_vector_destroy(huffman_vector_t *v);
 int huffman_vector_push(huffman_vector_t *v, uint8_t elem);
 uint8_t huffman_vector_get(huffman_vector_t *v, size_t index);
 
-#endif // HUFFMAN_ALGORITHM
+#endif // HUFFMAN_VECTOR
